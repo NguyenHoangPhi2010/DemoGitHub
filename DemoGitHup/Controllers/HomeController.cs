@@ -15,6 +15,7 @@ namespace DemoGitHup.Controllers
 
         public IActionResult Index()
         {
+            ViewBag.Msg = "Nguyen Hoang Phi"
             return View();
         }
 
